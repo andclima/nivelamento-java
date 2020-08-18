@@ -12,4 +12,11 @@ public class App {
         }
         scanner.close();
     }
+
+    public static String isNumeroPar(int numero) {
+        if (numero % 2 == 0) {
+            return "Par";
+        }
+        return "Ímpar";
+    }
 }
